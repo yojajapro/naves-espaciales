@@ -1,4 +1,4 @@
-fetch("https://api.allorigins.win/raw?url=http://api.open-notify.org/astros.json")
+fetch("https://ll.thespacedevs.com/2.2.0/astronaut/?limit=10")
     .then(res => res.json())
     .then(data => {
         const lista = document.getElementById("listaAstronautas");
