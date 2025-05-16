@@ -1,4 +1,4 @@
-fetch("https://cors-anywhere.herokuapp.com/http://api.open-notify.org/astros.json")
+fetch("https://api.allorigins.win/raw?url=http://api.open-notify.org/astros.json")
     .then(res => res.json())
     .then(data => {
         const lista = document.getElementById("listaAstronautas");
