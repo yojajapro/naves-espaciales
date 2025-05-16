@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-image: url('imagenes/69-692703_tierra-vista-desde-el-espacio-ultra-hd-fondos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header{
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: left;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px 40px;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 60px;
+}
+
+.navbar-links a {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #028585;
+}
+
+ main{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+}
+
+h2{
+    color: #00B3B3;
+}
+
+ul{
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.astronautas-panel {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.astronauta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.astronauta-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+
+.astronauta-card:hover {
+    transform: scale(1.05);
+}
+
+.astronauta-card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border: 2px solid #00cec9;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #02639b;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 16px;
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

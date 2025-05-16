@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAKZA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="crud.css">
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="imagenes/logo_naksa-removebg-preview.png" alt="NAKZA">
+            </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="api.html">Astronautas</a>
+            <a href="crud.html">Registrate</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="panel">
+            <h2>Enlistate para ser parte de la NAKZA</h2>
+            <div class="input-group">
+                <input type="text" id="nombre" placeholder="Nombre">
+                <input type="number" id="edad" placeholder="Edad">
+                <input type="text" id="genero" placeholder="Género">
+                <input type="text" id="telefono" placeholder="Teléfono">
+                <button onclick="agregarDatos()">Registrar</button>
+            </div>
+        <div id="listaPostulantes"></div>
+        </div>
+    </div>
+
+    <script src="crud.js"></script>
+
+    <footer class="footer">
+        @2025: Sebastian Salcedo | Todos los derechos reservados
+    </footer>
+
+</body>
+</html>
