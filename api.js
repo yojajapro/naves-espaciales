@@ -1,4 +1,4 @@
-fetch("http://api.open-notify.org/astros.json")
+fetch("https://api.open-notify.org/astros.json")
     .then(res => res.json())
     .then(data => {
         const lista = document.getElementById("listaAstronautas");
